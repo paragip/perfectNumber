@@ -17,11 +17,7 @@ public class perfetNumber {
                     sum += i;
                 }
             }
-            if (number == sum) {
-                return true;
-            } else {
-                return false;
-            }
+            return number == sum;
 
         }
 
